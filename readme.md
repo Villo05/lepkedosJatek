@@ -1,14 +1,14 @@
-lepkedosJatek
+# Lepkedős játék
 
-Feladat játéktér, játékos
+Feladat: játéktér, játékos  
+- Nyilakkal való lépkedés  
+- Ne tudjon lemenni a játéktérről  
+- Véletlenszerű tárgyak → plusz pont  
+- Info panel: játékos neve és pontja  
 
-nyilakkal való lépkedés, játéktérről ne tudjon lemenni
+---
 
-véletlenszerű tárgyak helyeken, ha oda megy akkor plusz pont
-
-info panel jákos nevével és pontjával
-
-_____________________________________________________________________________________
+```mermaid
 classDiagram
     class Index {
         <<entry point>>
@@ -46,8 +46,9 @@ classDiagram
     Jatekter --> Jatekos : példányosítja
     Jatekter --> Info : példányosítja
     Jatekter --> Targy : példányosítja
-    Jatekos --> Targy : hatizsakban tárolja
+    Jatekos --> Targy : hátizsákban tárolja
+```
 
-___________________________________________________________________________________
+---
 
 Stolár-Németh Villő
